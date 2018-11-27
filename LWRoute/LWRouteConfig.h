@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface LWRountConfig : NSObject
+@interface LWRouteConfig : NSObject
 
 + (instancetype)share;
 

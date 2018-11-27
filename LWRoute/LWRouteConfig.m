@@ -6,16 +6,16 @@
 //  Copyright © 2018年 LWQ. All rights reserved.
 //
 
-#import "LWRountConfig.h"
+#import "LWRouteConfig.h"
 
-@implementation LWRountConfig
+@implementation LWRouteConfig
 
 + (instancetype)share
 {
-    static LWRountConfig *instance = nil;
+    static LWRouteConfig *instance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        instance = [LWRountConfig new];
+        instance = [LWRouteConfig new];
     });
     return instance;
 }

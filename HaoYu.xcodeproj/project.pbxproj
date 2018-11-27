@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		F6EFB1C821AD21B2000B5F22 /* UIViewController+LWRount.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EFB1BE21AD21B2000B5F22 /* UIViewController+LWRount.m */; };
 		F6EFB1C921AD21B2000B5F22 /* LWRouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EFB1BF21AD21B2000B5F22 /* LWRouteManager.m */; };
-		F6EFB1CA21AD21B2000B5F22 /* LWRountConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EFB1C021AD21B2000B5F22 /* LWRountConfig.m */; };
-		F6EFB1CB21AD21B2000B5F22 /* LWRountURLPathRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EFB1C121AD21B2000B5F22 /* LWRountURLPathRegister.m */; };
-		F6EFB1CC21AD21B2000B5F22 /* LWRountURLData.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EFB1C321AD21B2000B5F22 /* LWRountURLData.m */; };
+		F6EFB1CA21AD21B2000B5F22 /* LWRouteConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EFB1C021AD21B2000B5F22 /* LWRouteConfig.m */; };
+		F6EFB1CB21AD21B2000B5F22 /* LWRouteURLPathRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EFB1C121AD21B2000B5F22 /* LWRouteURLPathRegister.m */; };
+		F6EFB1CC21AD21B2000B5F22 /* LWRouteURLData.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EFB1C321AD21B2000B5F22 /* LWRouteURLData.m */; };
 		F6F9AEBD21ABEE27003B065A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F9AEBC21ABEE27003B065A /* AppDelegate.m */; };
 		F6F9AEC021ABEE27003B065A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F9AEBF21ABEE27003B065A /* ViewController.m */; };
 		F6F9AEC321ABEE27003B065A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F9AEC121ABEE27003B065A /* Main.storyboard */; };
@@ -41,17 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F6EFB1BD21AD21B2000B5F22 /* LWRountURLData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRountURLData.h; sourceTree = "<group>"; };
+		F6EFB1BD21AD21B2000B5F22 /* LWRouteURLData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRouteURLData.h; sourceTree = "<group>"; };
 		F6EFB1BE21AD21B2000B5F22 /* UIViewController+LWRount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LWRount.m"; sourceTree = "<group>"; };
 		F6EFB1BF21AD21B2000B5F22 /* LWRouteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWRouteManager.m; sourceTree = "<group>"; };
-		F6EFB1C021AD21B2000B5F22 /* LWRountConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWRountConfig.m; sourceTree = "<group>"; };
-		F6EFB1C121AD21B2000B5F22 /* LWRountURLPathRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWRountURLPathRegister.m; sourceTree = "<group>"; };
+		F6EFB1C021AD21B2000B5F22 /* LWRouteConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWRouteConfig.m; sourceTree = "<group>"; };
+		F6EFB1C121AD21B2000B5F22 /* LWRouteURLPathRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWRouteURLPathRegister.m; sourceTree = "<group>"; };
 		F6EFB1C221AD21B2000B5F22 /* UIViewController+LWRount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LWRount.h"; sourceTree = "<group>"; };
-		F6EFB1C321AD21B2000B5F22 /* LWRountURLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWRountURLData.m; sourceTree = "<group>"; };
-		F6EFB1C421AD21B2000B5F22 /* LWRountConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRountConfig.h; sourceTree = "<group>"; };
-		F6EFB1C521AD21B2000B5F22 /* LWRountHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRountHeader.h; sourceTree = "<group>"; };
+		F6EFB1C321AD21B2000B5F22 /* LWRouteURLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWRouteURLData.m; sourceTree = "<group>"; };
+		F6EFB1C421AD21B2000B5F22 /* LWRouteConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRouteConfig.h; sourceTree = "<group>"; };
+		F6EFB1C521AD21B2000B5F22 /* LWRouteHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRouteHeader.h; sourceTree = "<group>"; };
 		F6EFB1C621AD21B2000B5F22 /* LWRouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRouteManager.h; sourceTree = "<group>"; };
-		F6EFB1C721AD21B2000B5F22 /* LWRountURLPathRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRountURLPathRegister.h; sourceTree = "<group>"; };
+		F6EFB1C721AD21B2000B5F22 /* LWRouteURLPathRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRouteURLPathRegister.h; sourceTree = "<group>"; };
 		F6F9AEB821ABEE27003B065A /* HaoYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaoYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F9AEBB21ABEE27003B065A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F6F9AEBC21ABEE27003B065A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,17 +100,17 @@
 		F6EFB1BC21AD21B2000B5F22 /* LWRoute */ = {
 			isa = PBXGroup;
 			children = (
-				F6EFB1BD21AD21B2000B5F22 /* LWRountURLData.h */,
+				F6EFB1BD21AD21B2000B5F22 /* LWRouteURLData.h */,
 				F6EFB1BE21AD21B2000B5F22 /* UIViewController+LWRount.m */,
 				F6EFB1BF21AD21B2000B5F22 /* LWRouteManager.m */,
-				F6EFB1C021AD21B2000B5F22 /* LWRountConfig.m */,
-				F6EFB1C121AD21B2000B5F22 /* LWRountURLPathRegister.m */,
+				F6EFB1C021AD21B2000B5F22 /* LWRouteConfig.m */,
+				F6EFB1C121AD21B2000B5F22 /* LWRouteURLPathRegister.m */,
 				F6EFB1C221AD21B2000B5F22 /* UIViewController+LWRount.h */,
-				F6EFB1C321AD21B2000B5F22 /* LWRountURLData.m */,
-				F6EFB1C421AD21B2000B5F22 /* LWRountConfig.h */,
-				F6EFB1C521AD21B2000B5F22 /* LWRountHeader.h */,
+				F6EFB1C321AD21B2000B5F22 /* LWRouteURLData.m */,
+				F6EFB1C421AD21B2000B5F22 /* LWRouteConfig.h */,
+				F6EFB1C521AD21B2000B5F22 /* LWRouteHeader.h */,
 				F6EFB1C621AD21B2000B5F22 /* LWRouteManager.h */,
-				F6EFB1C721AD21B2000B5F22 /* LWRountURLPathRegister.h */,
+				F6EFB1C721AD21B2000B5F22 /* LWRouteURLPathRegister.h */,
 			);
 			path = LWRoute;
 			sourceTree = SOURCE_ROOT;
@@ -305,11 +305,11 @@
 			files = (
 				F6F9AEC021ABEE27003B065A /* ViewController.m in Sources */,
 				F6F9AEFA21AC0800003B065A /* LWViewController.m in Sources */,
-				F6EFB1CC21AD21B2000B5F22 /* LWRountURLData.m in Sources */,
+				F6EFB1CC21AD21B2000B5F22 /* LWRouteURLData.m in Sources */,
 				F6EFB1C921AD21B2000B5F22 /* LWRouteManager.m in Sources */,
-				F6EFB1CB21AD21B2000B5F22 /* LWRountURLPathRegister.m in Sources */,
+				F6EFB1CB21AD21B2000B5F22 /* LWRouteURLPathRegister.m in Sources */,
 				F6F9AECB21ABEE29003B065A /* main.m in Sources */,
-				F6EFB1CA21AD21B2000B5F22 /* LWRountConfig.m in Sources */,
+				F6EFB1CA21AD21B2000B5F22 /* LWRouteConfig.m in Sources */,
 				F6EFB1C821AD21B2000B5F22 /* UIViewController+LWRount.m in Sources */,
 				F6F9AEBD21ABEE27003B065A /* AppDelegate.m in Sources */,
 			);

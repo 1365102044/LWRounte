@@ -6,13 +6,13 @@
 //  Copyright © 2018年 LWQ. All rights reserved.
 //
 
-#import "LWRountURLData.h"
-#import "LWRountHeader.h"
+#import "LWRouteURLData.h"
+#import "LWRouteHeader.h"
 
-@implementation LWRountURLData
+@implementation LWRouteURLData
 + (instancetype)urlDataWithUrl:(NSURL *)url
 {
-    LWRountURLData *u = [[LWRountURLData alloc] init];
+    LWRouteURLData *u = [[LWRouteURLData alloc] init];
     u.URL = url;
     return u;
 }
@@ -27,7 +27,7 @@
 
 - (LWRountType)rountType
 {
-    if (self.URL.host && [LWRountConfig.share.actionHost isEqualToString:self.URL.host]) {
+    if (self.URL.host && [LWRouteConfig.share.actionHost isEqualToString:self.URL.host]) {
         return LWRountTypeAction;
     }
     return LWRountTypeOpenPage;

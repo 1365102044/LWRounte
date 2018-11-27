@@ -7,7 +7,7 @@
 //
 
 #import "LWRouteManager.h"
-#import "LWRountHeader.h"
+#import "LWRouteHeader.h"
 @interface LWRouteManager ()
 @property (nonatomic, copy) void (^actionBlock) (NSString *actionName,NSDictionary *data);
 @end
@@ -36,9 +36,9 @@
                  actionHost:(NSString *)actionHost
                 actionBlock:(void (^)(NSString *actionName,NSDictionary *data))actionBlock
 {
-    LWRountConfig.share.urlSchems = urlchemes;
-    [LWRountConfig.share setOpenPageHost:pageHost];
-    [LWRountConfig.share setActionHost:actionHost];
+    LWRouteConfig.share.urlSchems = urlchemes;
+    [LWRouteConfig.share setOpenPageHost:pageHost];
+    [LWRouteConfig.share setActionHost:actionHost];
     LWRouteManager.shareInstance.actionBlock = actionBlock;
 }
 
@@ -50,10 +50,10 @@
  */
 - (BOOL)appActionWithUrl:(NSURL *)url
 {
-    if (![LWRountConfig.share.urlSchems containsObject:url.scheme]) {
+    if (![LWRouteConfig.share.urlSchems containsObject:url.scheme]) {
         return NO;
     }
-    LWRountURLData *urldata = [LWRountURLData urlDataWithUrl:url];
+    LWRouteURLData *urldata = [LWRouteURLData urlDataWithUrl:url];
     if (urldata.rountType == LWRountTypeOpenPage) {
         return [self pushWithTargetVcName:urldata.controllerName fromVc:nil data:urldata.data];
     }else{
@@ -151,7 +151,7 @@
 - (UIViewController *)getVcFromRegister:(NSString *)targetVcName
 {
     NSAssert(targetVcName, @"目标控制器不能为空");
-    NSString *className = [[LWRountURLPathRegister share].registerDict objectForKey:targetVcName];
+    NSString *className = [[LWRouteURLPathRegister share].registerDict objectForKey:targetVcName];
     id vc;
     if (!className) {
         LWLog(@"该类名未注册");

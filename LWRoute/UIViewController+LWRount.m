@@ -7,8 +7,8 @@
 //
 
 #import "UIViewController+LWRount.h"
-#import "LWRountHeader.h"
-@implementation UIViewController (LWRount)
+#import "LWRouteHeader.h"
+@implementation UIViewController (LWRoute)
 
 /**
  注册控制器
@@ -18,7 +18,7 @@
 + (void)lw_registerPath:(NSString *)path
 {
     if (path) {
-        [[LWRountURLPathRegister share].registerDict setObject:NSStringFromClass([self class]) forKey:path];
+        [[LWRouteURLPathRegister share].registerDict setObject:NSStringFromClass([self class]) forKey:path];
     }
 }
 

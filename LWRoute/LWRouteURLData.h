@@ -11,7 +11,7 @@ typedef NS_ENUM(NSInteger ,LWRountType) {
     LWRountTypeOpenPage,        //打开页面
     LWRountTypeAction       //方法
 };
-@interface LWRountURLData : NSObject
+@interface LWRouteURLData : NSObject
 
 /**
  原始URL

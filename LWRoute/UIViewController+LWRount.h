@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (LWRount)
+@interface UIViewController (LWRoute)
 
 /**
  注册控制器

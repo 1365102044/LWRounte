@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface LWRountURLPathRegister : NSObject
+@interface LWRouteURLPathRegister : NSObject
 
 + (instancetype)share;
 
